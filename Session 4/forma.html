@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+</head>
+
+<body>
+    <form action="test.html">
+        <fieldset>
+            <legend>Login information</legend>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Username here..." id="username">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password here..." id="password">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email here..." id="email">
+        </div>
+    </fieldset>
+        <fieldset>
+            <legend>Favorite language</legend>
+            <div>
+                <input type="radio" name="fav-lang" value="html" id="html">
+                <label for="html">HTML</label>
+            </div>
+            <div>
+                <input type="radio" name="fav-lang" value="css" id="css">
+                <label for="css">CSS</label>
+            </div>
+            <div>
+                <input type="radio" name="fav-lang" value="javascript" id="javascript">
+                <label for="javascript">JavaScript</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Choose only the car brands</legend>
+            <div>
+                <label for="bmw">BMW</label>
+                <input type="checkbox" name="cars" value="bmw" id="bmw">
+            </div>
+            <div>
+                <label for="microsoft">Microsoft</label>
+                <input type="checkbox" name="cars" value="microsoft" id="microsoft">
+            </div>
+            <div>
+                <label for="nokia">Nokia</label>
+                <input type="checkbox" name="cars" value="nokia" id="nokia">
+            </div>
+            <div>
+                <label for="audi">Audi</label>
+                <input type="checkbox" name="cars" value="audi" id="audi">
+            </div>
+        </fieldset>
+        <div>
+            <label for="dob">Date of birth</label>
+            <input type="date" id="dob">
+        </div>
+        <div>
+            <label for="comment">Leave a comment</label>
+            <br>
+            <textarea id="comment" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
