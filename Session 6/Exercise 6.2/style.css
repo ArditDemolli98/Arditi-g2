@@ -1,0 +1,43 @@
+h1{
+    color: darkblue;
+    text-align:center;
+}
+li + li{
+    color:red;
+}
+main h3{
+    color: violet;
+    text-align:center;
+}
+
+.violet{
+    color:pink;
+    text-align: center;
+}
+p{
+    color: gold;
+}
+
+footer p{
+    color: darkred;
+    text-align:center;
+}
+
+p{
+    color:black;
+}
+
+.tomato{
+    color: tomato;
+}
+
+.center{
+    text-align:center;
+}
+
+#big{
+    font-size:45px !important;
+}
+.center{
+    font-size:12px;
+}

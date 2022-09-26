@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    width:200px;
+    height:200px;
+    display: inline-block;
+}
+
+.box-1{
+    border: 15px dotted violet;
+    padding: 15px 20px 15px 15px;
+    margin: 20px 15px 20px 20px;
+}
+
+.box-2{   
+    border: 5px solid green;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.box-3{
+    border: 5px solid blue;
+    margin: auto;   
+}
+
+li{
+    display: inline-block;
+    margin-top:5px;
+}
+input{
+    font-size:40px;
+    padding:15px;
+}

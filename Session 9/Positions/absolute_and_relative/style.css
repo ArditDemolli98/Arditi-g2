@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.box{
+    height: 200px;
+    width: 300px;
+    border: 5px solid red;
+    background-color: yellow;
+    display: inline-block;
+    font-size:25px;
+    font-weight:800;
+    text-align:center;
+    padding-top:75px;
+    box-sizing: border-box;
+}
+
+.box-2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(50%, 50%);
+}
+
+/* .box-1{
+    position: relative;
+    left: 200px;
+    z-index: 10;
+}
+
+.box-3{
+    position: relative;
+    top: 50px;
+} */
+.container{
+    width:800px;
+    height: 600px;
+    border: 5px solid black;
+    margin: auto;
+    position: relative;
+}
+
+.box-3{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    transform: translate(-50%, 50%);
+}
+/* Per me e pozicionu elementin ne mes */
+.box-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

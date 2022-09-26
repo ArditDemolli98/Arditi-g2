@@ -1,0 +1,31 @@
+body{
+    background-color: aquamarine;
+}
+header{
+    background-color: aqua;
+    height:15vh;
+}
+main{
+    background-image:url(../images/background-sample.jpg);
+    height: 70vh;
+}
+footer{
+    background-color: blue;
+    height: 15vh;
+}
+
+section{
+    background-color:tomato;
+}
+section + section{
+    background-color: blueviolet;
+}
+
+blockquote{
+    background-color: gold;
+    width: 20%;
+}
+
+section h2{
+    text-align: center;
+}

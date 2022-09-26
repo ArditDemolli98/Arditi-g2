@@ -1,0 +1,13 @@
+h1{
+    text-transform:uppercase;
+}
+h2{
+    text-decoration: underline overline rgb(44, 9, 9);
+    font-weight: lighter;
+}
+p, li{
+    font-size:20px;
+    line-height:1.5;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+}

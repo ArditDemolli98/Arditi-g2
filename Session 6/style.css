@@ -1,0 +1,35 @@
+h1+h2{
+    color:red;
+}
+
+p+h2{
+    color:blue;
+}
+
+h1+h2+p{
+    color:green;
+}
+
+p+h2+ p + h2+ p{
+    color: gold;
+}
+
+section > h2{
+    color:crimson;
+    text-align:center;
+}
+
+section > p{
+    color:darkcyan;
+    text-align:center;
+}
+
+article p{
+    color:chocolate;
+    text-align:center;
+}
+article h2{
+    color: darkred;
+    text-align:center;
+}
+
