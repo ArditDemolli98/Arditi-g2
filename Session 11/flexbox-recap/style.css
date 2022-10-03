@@ -1,0 +1,43 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.box-1{
+    flex-basis: 50%;
+}
+
+.box-2{
+    align-self:flex-start;
+}
+
+.box-4{
+    align-self: flex-end;
+}
+
+.wrapper{
+    width: 90vw;;
+    height: 1000px;
+    border: 1px solid black;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap;
+    align-content: center; */
+}
+
+@media only screen and (max-width:900px){
+    .box-4{
+        background-color: red;
+    }
+    
+}
+@media only screen and (max-width:600px){
+    .box-1{
+        background-color: red;
+    }
+
+}
