@@ -23,5 +23,4 @@ document.querySelector("form").addEventListener("submit", function (e) {
     } else {
         window.location.replace("message.html");
     }
-
 })
